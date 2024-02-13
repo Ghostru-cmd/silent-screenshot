@@ -1,0 +1,30 @@
+{
+  "name": "silent-screenshot",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.ts",
+  "author": "Tulev Andrey",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc --build && cp screenshot.AppImage dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.15",
+    "typescript": "^5.3.3"
+  },
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/Ghostru-cmd/silent-screenshot.git"
+  },
+  "keywords": [
+    "screenshot",
+    "linux"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ghostru-cmd/silent-screenshot/issues"
+  },
+  "homepage": "https://github.com/Ghostru-cmd/silent-screenshot#readme",
+  "description": ""
+}
