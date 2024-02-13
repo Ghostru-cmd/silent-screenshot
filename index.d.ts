@@ -1,1 +1,0 @@
-declare function screenshot(fileName: string): void
