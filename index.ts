@@ -1,5 +1,6 @@
 import { execSync } from 'child_process'
+import * as path from "node:path";
 
 export default function screenshot(fileName: string) {
-    execSync(`./screenshot.AppImage --file ${fileName}`)
+    execSync(`${path.join(__dirname, 'screenshot.AppImage')} --file ${fileName}`)
 }
